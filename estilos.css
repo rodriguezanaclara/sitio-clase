@@ -1,0 +1,39 @@
+
+/*estilos.css*/
+
+/*declaro las variables en primer lugar*/
+
+:root{
+	/*le pongo -- para indicar que es una variable*/
+	
+	--blanco:#FFF;
+	--negro:#000;
+	--naranja:#F90;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	
+}
+
+body{
+font-family:arial;
+background-image:url(images/pattern.jpg);
+}
+
+.cabecera{
+	margin:auto;
+	max-width:1000px;
+}
+
+.contenido{
+	margin:auto;
+	max-width:1000px;
+	
+	/*usamos la variable*/
+	background-color:var(--blanco);
+}
